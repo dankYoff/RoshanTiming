@@ -1,4 +1,4 @@
-# Rosh Timing
+# Roshan Timing
 # Gives randomly the time when the rosh aegis was killed
 # Write aegis timing, minimum and maximum Roshan respawn timing
 
