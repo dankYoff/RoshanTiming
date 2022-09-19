@@ -19,11 +19,13 @@ _3. Enter the aegis timer, Roshan's minimum and maximum spawn time_
 _4. The program will give you 10 attempts, show step-by-step and final results. And also if you mistakenly wrote down the wrong timing, it will display the correct answer_
 
 
-# Social
+# Social (Where you can find me🔍)
 
-[___Youtube___](https://www.youtube.com/channel/UCOGqsd1lObd2tEKPMESn0yg)
 
-___Discord: dankY#1157___
+### [Steam](https://steamcommunity.com/id/dankYbatoff/)
 
+### [YouTube](https://www.youtube.com/channel/UCOGqsd1lObd2tEKPMESn0yg)
+
+### __Discord:__ dankY#1157
 
 ![Имя отутствует (online-video-cutter com)(2)(1)](https://img.icons8.com/color/344/dota.png)
