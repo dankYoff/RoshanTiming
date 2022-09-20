@@ -2,7 +2,6 @@
 # Gives randomly the time when the Roshan was killed
 # Write Aegis timing, minimum and maximum Roshan respawn timing
 
-import random
 from random import randint
 import time
 from colorama import Fore
