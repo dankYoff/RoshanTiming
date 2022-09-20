@@ -1,17 +1,24 @@
 # Roshan Timing
-# Gives randomly the time when the rosh aegis was killed
-# Write aegis timing, minimum and maximum Roshan respawn timing
+# Gives randomly the time when the Roshan was killed
+# Write Aegis timing, minimum and maximum Roshan respawn timing
 
+import random
 from random import randint
 import time
+from colorama import Fore
+from colorama import init
+
+init(autoreset=True)
 
 k = 0
 x = 0
+
+# Start program
 for x in range(10):
     print('Attempt ' + str(x + 1) + "/10")
 
     # RANDOM TIMER IN GAME
-    a = randint(10, 70)
+    a = randint(10, 50)
     if a <= 9:
         aa = str('0' + str(a))
     else:
@@ -31,39 +38,34 @@ for x in range(10):
         aegis_a = str(aegis_a)
     b = randint(0, 59)
 
-    timer_aegis = str('Aegis - ' + str(aegis_a) + bb)
-
     # MIN TIMER ROSHAN
     int_min_rosh = a + 8
-    min_rosh = str('Min Timing Roshan - ' + str(int_min_rosh) + bb)
 
     # MAX TIMER ROSHAN
     int_max_rosh = a + 11
-    max_rosh = str('Max Timing Roshan - ' + str(int_max_rosh) + bb)
 
     # Enter Aegis, min or max + Check
     c = 1
     d = str(str(aegis_a) + bb + ' ' + str(int_min_rosh) + bb + '-' + str(int_max_rosh) + bb)
     if c == 1:
-
         print('Time of Roshans death: ' + timer)
         cc = str(input('Aegis min-max Roshan : '))
         if cc == str(d):
             k += 1
-            print('Everything is correct, you are well done :)' + '\n')
+            print(Fore.GREEN + 'Well, all corect :) ' + '\033[39m' + ' : ' + d + '\n')
         else:
-            print('You made a mistake   : ' + d + '\n')
+            print(Fore.RED + 'You made a mistake( ' + '\033[39m' + ' : ' + d + '\n')
 
 # Result
 if x == 9:
-    print('Result: ' + str(k) + "/10")
+    print('RESULT: ' + str(k) + "/10")
     if 0 <= k <= 4:
-        print('More practice = more experience')
+        print(Fore.RED + 'More practice = more experience!')
     if 5 <= k <= 7:
-        print('Nice, continue in the same movement')
+        print(Fore.YELLOW + 'Nice, continue in the same movement')
     if 8 <= k <= 9:
-        print('You so good, bro')
+        print(Fore.GREEN + 'You so good, bro')
     if k == 10:
-        print('I love Dota 2 ❤')
+        print(Fore.BLUE + 'I love Dota 2')
 
 time.sleep(15)
